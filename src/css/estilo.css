@@ -1,0 +1,163 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+    position: relative;
+}
+
+.cabecalho .logo-linha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 2%;
+    height: 100%;
+}
+
+.cabecalho .logo-linha img {
+    height: 4,8rem;
+    margin-left: 6.4rem;
+}
+
+.cabecalho .logo-linha .linha-cabecalho {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.50);
+    margin-left: 6.4rem;
+    height: 1px;
+    width: 30%;
+    position: absolute;
+    top: 65%;
+    left: 18%;
+}
+
+.cabecalho .navegacao-cabecalho {
+    align-self: self-end;
+    background-color: rgba(255, 255, 255, 0.10);
+    height: 8rem;
+    width: 50vw;
+}
+
+.navegacao-cabecalho input {
+    display: none;
+}
+
+.cabecalho .navegacao-cabecalho #menu-hamburguer {
+    display: none;
+}
+
+.cabecalho .navegacao-cabecalho .lista-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 64px 0 159px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.cabecalho .navegacao-cabecalho .item-lista-cabecalho {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 50%);
+    margin: 0 4.8rem;
+    font-family: "Barlow", sans-serif;
+}
+
+.cabecalho .navegacao-cabecalho .item-lista-cabecalho:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 100%);
+    transform: scale(120%);
+}
+
+.cabecalho .navegacao-cabecalho .item-lista-cabecalho a {
+    display: flex;
+}
+
+.cabecalho .navegacao-cabecalho .item-lista-cabecalho .numero-secao-cabecalho {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.cabecalho .navegacao-cabecalho .item-lista-cabecalho .titulo-secao-cabecalho {
+    display: block;
+    font-size: 1.3rem;
+}
+
+.painel-principal {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 85vh;
+}
+
+.painel-principal .container1-painel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 10rem 10rem 10rem;
+}
+
+.painel-principal .container1-painel .sub-titulo-painel {
+    font-size: 2.8vh;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+}
+
+.painel-principal .container1-painel .titulo-painel {
+    font-size: 18.4vh;
+    font-family: "Bellefair", sans-serif;
+    color: white;
+    margin: 1.5rem 0;
+}
+
+.painel-principal .container1-painel .texto-painel {
+    font-size: 2.5vh;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    width: 80%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.painel-principal .container2-painel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 40%;
+}
+
+.painel-principal .container2-painel .btn-explore {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    color: rgb(0, 0, 0,70%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Bellefair", sans-serif;
+    transition: 0.3s ease-in-out;
+    height: 27.2rem;
+    width: 27.2rem;
+}
+
+
+.painel-principal .container2-painel .btn-explore:hover{
+    outline: 80px solid rgb(255, 255, 255,20%);
+    border-radius: 50%;
+    display: block;
+    align-self: center;
+}
