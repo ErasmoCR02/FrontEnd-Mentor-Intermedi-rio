@@ -7,49 +7,19 @@ const distancias = document.querySelectorAll('.informacoes-distancia');
 const tempos = document.querySelectorAll('.informacoes-tempo');
 
 function ativarItem(index) {
-    
-    containers.forEach((container) => {
-        container.classList.remove('ativo');
-        container.classList.add('desativado');
+    const groups = [containers, titulos, textos, distancias, tempos];
+    const activeClassMap = ['ativo', 'ativo', 'ativo', 'ativado', 'ativado'];
+
+    groups.forEach((group, groupIndex) => {
+        group.forEach((item) => {
+            item.classList.remove(activeClassMap[groupIndex]);
+            item.classList.add('desativado');
+        });
+
+        group[index].classList.remove('desativado');
+        group[index].classList.add(activeClassMap[groupIndex]);
     });
-
-    titulos.forEach((titulo) => {
-        titulo.classList.remove('ativo');
-        titulo.classList.add('desativado');
-    });
-
-    textos.forEach((texto) => {
-        texto.classList.remove('ativo');
-        texto.classList.add('desativado');
-    });
-
-    distancias.forEach((distancia) => {
-        distancia.classList.remove('ativado'); 
-        distancia.classList.add('desativado'); 
-    });
-
-    tempos.forEach((tempo) => {
-        tempo.classList.remove('ativado'); 
-        tempo.classList.add('desativado'); 
-    });
-
-    
-    containers[index].classList.remove('desativado');
-    containers[index].classList.add('ativo');
-
-    titulos[index].classList.remove('desativado');
-    titulos[index].classList.add('ativo');
-
-    textos[index].classList.remove('desativado');
-    textos[index].classList.add('ativo');
-
-    distancias[index].classList.remove('desativado');
-    distancias[index].classList.add('ativado');
-
-    tempos[index].classList.remove('desativado');
-    tempos[index].classList.add('ativado');
 }
-
 
 items.forEach((item, index) => {
     item.addEventListener('click', (event) => {

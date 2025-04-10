@@ -1,0 +1,143 @@
+@media (min-width: 1500px) {
+    .main-destination .conteudo-destination .container2-destination .lista-destination {
+        font-size: 2rem;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .titulo-planeta {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    html {
+        box-sizing: border-box;
+    }
+
+    .main-destination .sub-titulo-moon {
+        margin: 0 4rem;
+        text-align: center;
+    }
+
+    .main-destination .conteudo-destination {
+        margin: 0 2rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .main-destination .conteudo-destination .container1-destination {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .main-destination .conteudo-destination .container1-destination img {
+        align-self: center;
+        max-width: 32rem;
+    }
+
+    .main-destination .conteudo-destination .container2-destination {
+        margin-left: 0;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .lista-destination {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .titulo-planeta {
+        font-size: 3.5rem;
+        margin-top: 2rem;
+        text-align: center;
+        height: 8rem;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .texto-planeta {
+        width: 50%;
+        font-size: 1.2rem;
+        height: 8rem;
+        text-align: center;
+        align-self: center;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination {
+        justify-content: space-between;
+        align-self: center;
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main-destination .conteudo-destination {
+        margin: 0 auto;
+    }
+
+    .main-destination .conteudo-destination .container2-destination {
+        margin-left: 0;
+    }
+
+    .main-destination .sub-titulo-moon {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .main-destination .conteudo-destination {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-destination .conteudo-destination .container1-destination img {
+        max-width: 20rem; }
+
+     
+        
+    .main-destination .conteudo-destination .container2-destination .titulo-planeta {
+        font-size: 5.1rem;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-distancia {
+        font-size: 2rem;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .conteudo-tempo {
+        font-size: 2rem;
+    }
+
+    }
+
+
+    @media (max-width: 450px) {
+        .cabecalho {
+            height: 10vh;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .texto-planeta {
+            width: 90%;
+            height: 10rem;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination {
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 450px) { 
+        html {
+            height: 100%;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-distancia {
+            font-size: 1.5rem;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .conteudo-tempo {
+            font-size: 1.5rem;
+            background-color: red;
+        }
+    }
+    

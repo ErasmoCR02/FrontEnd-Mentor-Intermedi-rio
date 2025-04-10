@@ -1,5 +1,4 @@
-/* Home */
-
+/* Ajustes para telas menores que 1030px */
 @media (max-width: 1030px) {
     .cabecalho .logo-linha .linha-cabecalho {
         position: absolute;
@@ -11,10 +10,13 @@
     .cabecalho .navegacao-cabecalho {
         width: 60%;
     }
+
     .cabecalho .navegacao-cabecalho .lista-cabecalho {
         padding: 0;
     }
 }
+
+/* Ajustes para telas menores que 780px */
 @media (max-width: 780px) {
     .cabecalho .navegacao-cabecalho {
         width: 60%;
@@ -30,6 +32,7 @@
         height: 85vh;
         width: 100%;
     }
+
     .painel-principal .container1-painel {
         height: 50vh;
         width: 100%;
@@ -40,6 +43,7 @@
         justify-content: flex-start;
         padding: 0;
     }
+
     .painel-principal .container2-painel {
         height: 100px;
     }
@@ -47,9 +51,9 @@
     .painel-principal .container1-painel .texto-painel {
         text-align: center;
     }
-
 }
 
+/* Ajustes para telas menores que 680px */
 @media (max-width: 680px) {
     .cabecalho .logo-linha .linha-cabecalho {
         display: none;
@@ -59,8 +63,8 @@
         background-color: transparent;
     }
 
-    .cabecalho .navegacao-cabecalho .lista-cabecalho{
-        background-color: rgba(0, 0, 0,90%);
+    .cabecalho .navegacao-cabecalho .lista-cabecalho {
+        background-color: rgba(0, 0, 0, 90%);
         visibility: hidden;
         flex-direction: column;
         justify-content: start;
@@ -95,7 +99,6 @@
         border-bottom: none;
     }
 
-
     header .navegacao-cabecalho label .menu {
         width: 60px;
         height: 60px;
@@ -106,10 +109,10 @@
     header nav label {
         display: flex;
         flex-direction: column;
-    }   
+    }
 
     header .navegacao-cabecalho .hamburguer {
-        background-color:white;
+        background-color: white;
         position: relative;
         display: block;
         width: 30px;
@@ -121,7 +124,7 @@
 
     header .navegacao-cabecalho .hamburguer:before,
     .navegacao-cabecalho .hamburguer:after {
-        background-color:white;
+        background-color: white;
         content: "";
         position: absolute;
         display: block;
@@ -145,12 +148,12 @@
     .navegacao-cabecalho input:checked ~ label .hamburguer {
         transform: rotate(45deg);
     }
-    
+
     .navegacao-cabecalho input:checked ~ label .hamburguer:before {
         transform: rotate(90deg);
         top: 0;
     }
-    
+
     .navegacao-cabecalho input:checked ~ label .hamburguer:after {
         transform: rotate(90deg);
         bottom: 0;
@@ -159,28 +162,4 @@
     .cabecalho .navegacao-cabecalho .item-lista-cabecalho:hover {
         transform: scale(112%);
     }
-
-    .painel-principal .container1-painel .sub-titulo-painel {
-        font-size: 16px;
-    }
-
-    .painel-principal .container1-painel .titulo-painel {
-        font-size: 90px;
-    }
-    .painel-principal .container1-painel .texto-painel {
-        font-size: 2vh;
-    }
-
-    .painel-principal .container2-painel .btn-explore {
-       font-size: 20px;
-       height: 20rem;
-       margin-top: 20px;
-       height: 14rem;
-       width: 14rem;
-    }
-
-    .painel-principal .container2-painel .btn-explore:hover {
-        outline: 40px solid rgb(255, 255, 255,20%);
-    }
-
 }
