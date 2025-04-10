@@ -1,0 +1,39 @@
+  .main-destination .conteudo-destination .container1-destination.desativado {
+    display: none;
+  }
+
+  .main-destination .conteudo-destination .container1-destination.ativo {
+    display: block;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .titulo-planeta.desativado {
+    display: none;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .titulo-planeta.ativo {
+    display: block;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .texto-planeta.desativado {
+    display: none;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .texto-planeta.ativo {
+    display: block;
+  }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia.desativado {
+    display: none;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia.ativado {
+    display: flex;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo.desativado {
+    display: none;
+  }
+
+  .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo.ativado {
+    display: flex;
+  }

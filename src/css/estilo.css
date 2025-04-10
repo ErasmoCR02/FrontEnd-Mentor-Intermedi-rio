@@ -161,3 +161,126 @@
     display: block;
     align-self: center;
 }
+
+/* Pagina destination */
+
+.body-destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-destination .sub-titulo-moon {
+    height: 10vh;
+    margin: 0 16.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-destination .sub-titulo-moon h3 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    font-family: "Barlow", sans-serif;
+}
+
+.main-destination .sub-titulo-moon h3 span {
+    opacity: 50%;
+}
+
+.main-destination .conteudo-destination {
+    margin: 0 16.5rem;
+    height: 75vh;
+    display: flex;
+}
+
+.main-destination .conteudo-destination .container1-destination {
+    display: flex;
+    align-items: center;
+}
+
+.main-destination .conteudo-destination .container1-destination img {
+    height: 48rem;
+    width: 48rem;
+}
+
+.main-destination .conteudo-destination .container2-destination {
+    padding: 30px 47px;
+    margin-left: 6%;
+}
+
+.main-destination .conteudo-destination .container2-destination .lista-destination {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    font-family: "Barlow", sans-serif;
+}
+.main-destination .conteudo-destination .container2-destination .lista-destination .items-lista-destination {
+   margin-right: 32px;
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.main-destination .conteudo-destination .container2-destination .titulo-planeta {
+    font-size: 9.6rem;
+    font-family: "Bellefair", sans-serif;
+    height: 15rem;
+    padding: 5px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.main-destination .conteudo-destination .container2-destination .texto-planeta {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.8rem;
+    height: 32%;
+    width: 80%;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 50%);
+}
+
+.main-destination .conteudo-destination .container2-destination .informacoes-destination {
+    height: auto;
+    width: 70%;
+    height: 17%;
+    display: flex;
+}
+
+.main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .distancia {
+    font-size: 1.4rem;
+    font-family: "Bellefair", sans-serif;
+    font-weight: 300;
+}
+
+.main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-distancia {
+    font-size: 2.8rem;
+    font-family: "Bellefair", sans-serif;
+    font-weight: 300;
+}
+.main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .tempo {
+    font-size: 1.4rem;
+    font-family: "Bellefair", sans-serif;
+    font-weight: 300;
+}
+
+.main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .conteudo-tempo {
+    font-size: 2.8rem;
+    font-family: "Bellefair", sans-serif;
+    font-weight: 300;
+}
+
