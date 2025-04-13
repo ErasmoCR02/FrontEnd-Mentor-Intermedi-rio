@@ -234,6 +234,28 @@
         }
     }
 
+    @media (max-width: 380px) {
+
+        .main-destination .conteudo-destination .container1-destination {
+            margin-top: 90px;
+        }
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination {
+            flex-direction: column;
+            align-items: center;
+            margin: -8px;
+            height: 20%;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia {
+            margin: 6px;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .tempo {
+            margin: 0;
+            height: %;
+        }
+    }
+
     @media (max-width: 330px) {
         .main-destination .conteudo-destination .container2-destination .texto-planeta {
             font-size: 1.05rem;
