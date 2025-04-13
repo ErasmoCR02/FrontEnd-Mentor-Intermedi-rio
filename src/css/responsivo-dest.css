@@ -1,4 +1,14 @@
-@media (min-width: 1500px) {
+@media (min-width: 1800px) {
+
+    .main-destination .conteudo-destination {
+        padding: 80px 30px;
+    }
+
+    .main-destination .conteudo-destination .container1-destination img {
+        align-self: center;
+        width: 50rem;
+    }
+
     .main-destination .conteudo-destination .container2-destination .lista-destination {
         font-size: 2rem;
     }
@@ -7,6 +17,8 @@
         margin-top: 50px;
     }
 }
+
+
 
 @media (max-width: 1024px) {
 
@@ -36,7 +48,8 @@
 
     .main-destination .conteudo-destination .container1-destination img {
         align-self: center;
-        max-width: 32rem;
+        width: 20rem;
+        height: 20rem;
     }
 
     .main-destination .conteudo-destination .container2-destination {
@@ -48,11 +61,19 @@
         justify-content: center;
     }
 
+    .main-destination .conteudo-destination .container2-destination .lista-destination .items-lista-destination {
+        margin-right: 1.5rem;
+    }
+
     .main-destination .conteudo-destination .container2-destination .titulo-planeta {
         font-size: 3.5rem;
-        margin-top: 2rem;
         text-align: center;
-        height: 8rem;
+        padding: 10px 0;
+        max-height: 6rem;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .titulo-planeta {
+        margin: 0;
     }
 
     .main-destination .conteudo-destination .container2-destination .texto-planeta {
@@ -68,12 +89,29 @@
         align-self: center;
         width: 50%;
     }
+    
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 
 }
 
 @media (max-width: 768px) {
     .main-destination .conteudo-destination {
         margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .main-destination .conteudo-destination .container1-destination {
+        margin-top: 50px;
     }
 
     .main-destination .conteudo-destination .container2-destination {
@@ -85,14 +123,20 @@
         text-align: center;
     }
 
+    .main-destination .conteudo-destination .container2-destination .texto-planeta {
+        height: 8rem;
+    }
+
     .main-destination .conteudo-destination {
         margin: 0;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
     }
 
     .main-destination .conteudo-destination .container1-destination img {
-        max-width: 20rem; }
+        height: 15rem;
+        width: 15rem; }
 
      
         
@@ -100,9 +144,23 @@
         font-size: 5.1rem;
     }
 
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
     .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-distancia {
         font-size: 2rem;
     }
+
+    .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-tempo {}
 
     .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .conteudo-tempo {
         font-size: 2rem;
@@ -131,13 +189,54 @@
             height: 100%;
         }
 
+        .main-destination .conteudo-destination .container1-destination {
+            margin-top: 50px;
+        }
+
+        .main-destination .conteudo-destination .container1-destination img {
+            max-width: 15rem; }
+
+        .main-destination .conteudo-destination .container2-destination .lista-destination .items-lista-destination {
+        margin-right: 1rem;
+        }
+
         .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-distancia {
             font-size: 1.5rem;
         }
 
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia {
+            mar
+            justify-content: center;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo {
+            justify-content: center;
+        }
+
         .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .conteudo-tempo {
             font-size: 1.5rem;
-            background-color: red;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .distancia {
+            font-size: 1rem;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .tempo {
+            font-size: 1rem;
+        }
+
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .conteudo-distancia {
+            font-size: 1.5rem;
+        }
+    
+        .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo .conteudo-tempo {
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width: 330px) {
+        .main-destination .conteudo-destination .container2-destination .texto-planeta {
+            font-size: 1.05rem;
         }
     }
     

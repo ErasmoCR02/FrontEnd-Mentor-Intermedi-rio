@@ -195,8 +195,8 @@
 }
 
 .main-destination .conteudo-destination .container1-destination img {
-    max-height: 48rem;
-    max-width: 48rem;
+    height: 48rem;
+    width: 48rem;
 }
 
 .main-destination .conteudo-destination .container2-destination {
@@ -243,18 +243,22 @@
 
 .main-destination .conteudo-destination .container2-destination .informacoes-destination {
     height: auto;
-    width: 70%;
-    height: 17%;
+    width: 80%;
+    height: 6rem;
     display: flex;
+    justify-content: space-between;
     margin-top: 1.5rem;
     text-transform: uppercase;
+
 }
 
 .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia {
-    display: flex;
+    display: block;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
-    margin-right: 40px;
+    text-align: center;
+    width: 50%;
 }
 
 .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-distancia .distancia {
@@ -270,9 +274,10 @@
 }
 .main-destination .conteudo-destination .container2-destination .informacoes-destination .informacoes-tempo {
 
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     width: 50%;
 }
 
